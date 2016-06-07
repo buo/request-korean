@@ -1,0 +1,33 @@
+{
+  "name": "request-korean",
+  "version": "0.1.0",
+  "description": "A wrapper around [request](https://github.com/request/request) to convert non-UTF-8 Korean response to UTF-8.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "buo <buo@users.noreply.github.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/buo/request-korean#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buo/request-korean.git"
+  },
+  "bugs": {
+    "url": "https://github.com/buo/request-korean/issues"
+  },
+  "keywords": [
+    "charset",
+    "encoding",
+    "euc-kr",
+    "euckr",
+    "korean",
+    "request",
+    "utf-8",
+    "utf8"
+  ],
+  "dependencies": {
+    "iconv": "^2.2.0",
+    "request": "^2.72.0"
+  }
+}
