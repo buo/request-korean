@@ -1,7 +1,7 @@
 'use strict';
 
 var request = require('request');
-var iconv = new require('iconv').Iconv('euckr', 'utf8');
+var iconv = new require('iconv').Iconv('cp949', 'utf8');
 
 function rqkrCallback(err, response, body) {
   if (response && response.headers['content-type']) {
