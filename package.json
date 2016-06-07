@@ -1,6 +1,6 @@
 {
   "name": "request-korean",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A wrapper around [request](https://github.com/request/request) to convert non-UTF-8 Korean response to UTF-8.",
   "main": "index.js",
   "scripts": {
