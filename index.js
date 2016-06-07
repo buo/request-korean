@@ -4,10 +4,17 @@ var request = require('request');
 var iconv = new require('iconv').Iconv('cp949', 'utf8');
 
 function rqkrCallback(err, response, body) {
-  if (response && response.headers['content-type']) {
-    if (/charset=(ks_c_5601-1987|euc-kr)/i.test(response.headers['content-type'])) {
-      body = iconv.convert(new Buffer(body)).toString();
+  try {
+    if (response && response.headers['content-type']) {
+      if (/charset=(ks_c_5601-1987|euc-kr)/i.test(response.headers['content-type'])) {
+        body = iconv.convert(new Buffer(body)).toString();
+      }
     }
+  }
+  catch (e) {
+    err = e;
+    response = undefined;
+    body = undefined;
   }
 
   this._rqkrOriginalCallback.apply(this, [err, response, body]);
