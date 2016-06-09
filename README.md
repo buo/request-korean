@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/request-korean.svg)](https://badge.fury.io/js/request-korean)
+
 # request-korean
 
 [requestjs](https://github.com/request/request) 패키지를 이용하여 웹 크롤러를 구현할 경우,
