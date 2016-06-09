@@ -77,3 +77,12 @@ result:
 <meta property="og:description" content="좋은 글과 새로운 이웃을 만나는 곳"/>
 <meta http-equiv="refresh" content="0; url=http://section.blog.naver.com">
 ```
+
+## ANY CONTRIBUTION IS WELCOME!!
+
+수정하거나 개선할 게 있다면 무엇이든 환영합니다. 심지어 오타 하나만 수정하더라고 좋습니다. [이슈](https://github.com/buo/request-korean/issues) 페이지에 이슈를 추가하거나, 여유가 되신다면
+Pull Request를 보내주세요.
+
+Don't be afraid to contribute. Even a commit that fixes a trivial typo is welcome.
+Create an issue [here](https://github.com/buo/request-korean/issues), or if you
+have spare time, please send me a pull request.
